@@ -144,7 +144,7 @@ public class OrderControllerRA {
 		.when()
 		.get("/orders/{id}", existingOrderId)
 		.then()
-		.statusCode(404);
+		.statusCode(401);
 		
 	}
 
